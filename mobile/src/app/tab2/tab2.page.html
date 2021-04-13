@@ -1,0 +1,49 @@
+<style>
+    .img{
+      width: 300px;
+      height: 180px;
+      display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 15px;
+    }
+    .n1{
+      background-color: white;
+      color:black;
+      margin-top: 10px;
+      margin-bottom: 10px;
+      border: 1px solid grey;
+    }
+    .botao{
+      width: 90px;
+      height: 40px;
+      margin-left: 30px;
+      margin-right: 30px;
+      margin-bottom: 15px;
+      background-color: blue;
+      
+    }
+    
+</style>
+
+<ion-header [translucent]="true">
+  
+
+<ion-content [fullscreen]="true">
+  <ion-header collapse="condense">
+    <ion-toolbar>
+      <ion-title size="large">Tab 2</ion-title>
+    </ion-toolbar>
+  </ion-header>
+  <ion-card class="clase">
+      <img src="assets/estaleiro.jpg" class="img">
+      <ion-input value="Usuário" readonly></ion-input>
+      <ion-input class="n1" placeholder="Usuário"></ion-input>
+      <ion-input value="Senha" readonly ></ion-input>
+      <ion-input class="n1" type="password" placeholder="Senha"></ion-input>
+      <button class="botao">Limpar</button>
+      <button class="botao">Acessar</button>
+  <!--   <app-explore-container name="Tab 2 page"></app-explore-container>   -->
+  <a href="#">Esqueci a minha senha</a>
+</ion-card>
+</ion-content>
